@@ -1,5 +1,4 @@
 # AUTO LESS SECURE
--------------------
 
 ## HOW TO RUN
 
