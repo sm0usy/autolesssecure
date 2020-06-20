@@ -1,11 +1,11 @@
 # AUTO LESS SECURE
 -------------------
 
-## How to run
+## HOW TO RUN
 
 run :
 
-    python run.py
+    python less.py
 
 ## SCREENSHOT
 
