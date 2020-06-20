@@ -1,20 +1,12 @@
-# Auto less secure
+# AUTO LESS SECURE
 -------------------
 
-## Requirements
-
- - Python 3
-
 ## How to run
-
-install dependencies :
-
-    pip install -r requirements.txt
 
 run :
 
     python run.py
 
-## Screenshot
+## SCREENSHOT
 
-![](img/CAPTURE.png)
+![](img/Capture.PNG)
