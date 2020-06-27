@@ -1,6 +1,5 @@
 #auto less secure by sm0usy
 #fb.me/GueHuman
-#pertama kali code dipython, maap masih berantakan
 import logging, selenium, time
 
 from selenium import webdriver
@@ -24,7 +23,7 @@ def less_secure(em):
         put_email.send_keys(ems[0])
         time.sleep(3)
         # NEXT
-        driver.find_element_by_xpath('//*[@id="identifierNext"]/span/span').click()
+        driver.find_element_by_xpath('//*[@id="identifierNext"]/div/span/span').click()
         time.sleep(3)
         try:
             # INPUT PASSWORD
@@ -33,10 +32,10 @@ def less_secure(em):
             put_password.send_keys(ems[1])
             time.sleep(1)
             # NEXT
-            driver.find_element_by_xpath('//*[@id="passwordNext"]/span/span').click()
+            driver.find_element_by_xpath('//*[@id="passwordNext"]/div/span/span').click()
             time.sleep(3)
             try:
-                driver.find_element_by_xpath('//*[@id="passwordNext"]/span/span')
+                driver.find_element_by_xpath('//*[@id="passwordNext"]/div/span/span')
                 driver.close()
                 return print('[WRONG PASSWORD] => ' + ems[0])
             except NoSuchElementException:
