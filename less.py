@@ -1,5 +1,4 @@
 #auto less secure by sm0usy
-#fb.me/GueHuman
 import logging, selenium, time
 
 from selenium import webdriver
